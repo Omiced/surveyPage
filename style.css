@@ -1,0 +1,85 @@
+html {
+    min-height: 100%;
+    min-width: 100%;
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(31, 128, 113, 0.8),
+        rgba(138, 255, 237, 0.5)
+      ),
+      url("https://i.imgur.com/iFUpZYt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    color: #FFFFFF;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .main-div__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 5vmax;
+    text-align: center;
+  }
+  .main-div__subTitle {
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: 2vmax;
+    text-align: center;
+  }
+  
+  .main-div__form {
+    background: rgba(55, 62, 112, 0.6);
+    border-radius: 0.2rem;
+    padding: 2.5rem 0.625rem;
+    margin: 2rem auto 0 auto;
+    font-size: 2vmax;
+  }
+  @media (min-width: 700px) {
+    .main-div__form {
+      padding: 2.5rem;
+      max-width: 600px;
+    }
+  }
+  
+  .main-div__form-div {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .text-areas{
+    width:100%;
+    border-radius:0.2rem;
+    padding:1em;
+  }
+  
+  .select-area{
+    width:100%;
+    padding: 1em;
+  }
+  
+  .radios{
+    display:grid;
+    grid-template-columns: min-content auto;
+    grid-gap: 0.5em;
+  }
+  
+  .divButton{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  
+  .button{
+    background-color: #000000;
+    color:white;
+    border: none;
+    padding: 15px 32px;
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vmax;
+  }

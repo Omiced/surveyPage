@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <main id="main">
+<div class="main-div">
+    <header class=>
+      <h1 id="title" class="main-div__title"> Encuesta sobre tortugas</h1>
+      <p id="description" class="main-div__subTitle"> Gracias por su tiempo para apreciar a las tortugas</p>
+    </header>
+    <form id="survey-form" class="main-div__form">
+      <div class="main-div__form-div">
+        <label id="name-label" for="name">Nombre</label>
+        <br><input class="text-areas" id="name" placeholder="Ingrese su nombre" name="name" type="text" required></br>
+      </div>
+      <div class="main-div__form-div">
+        <label id="email-label" for="email">Email</label>
+        <br><input class="text-areas" id="email" placeholder="Ingrese su correo electrónico" type="email" name="email" required></br>
+      </div>
+      <div class="main-div__form-div">
+        <label id="number-label" for="number">Edad</label>
+        <br><input class="text-areas" id="number" placeholder="Ingrese su edad" type="number" required name="number" min="13" max="99"></br>
+      </div>
+      <div class="main-div__form-div">
+        <label id="dropdow-label" for="tipos-tortuga">Escoja su tipo de tortuga favorita</label>
+        <br><select class="select-area" id="dropdown" name="tipos-tortuga" required>
+          <option value disabled selected>Escoja una opción</option>
+          <option value="tierra"> Tortuga de tierra</option>
+          <option value="mar"> Tortuga de mar</option>
+          <option value="rio"> Tortuga de rio</option>
+          <option value="noFav"> No tengo favoritas uwu</option>
+        </select></br>
+      </div>
+      <fieldset id="radio" class="main-div__form-div">
+        <legend> Escoja una opcíon que identifique mejor que siente por las tortugas</legend>
+        <label class="radios"> <input  type="radio" name="name" value="amor" checked>Amor uwu</label>
+    
+        <label class="radios"> <input type="radio" name="name" value="odio">Odio alv</label>
+    
+        <label class= "radios"> <input type="radio" name="name" value="preciosas">Me parecen preciosas</label>
+    
+        <label class="radios"> <input type="radio" name="name" value="nada">Nada</label>
+      </fieldset>
+    
+      <fieldset id="check" class="main-div__form-div">
+        <legend> Seleccione información sobre tortugas que le resultaría útil</legend>
+        <label class="radios"><input type="checkbox" name="checks" value="habitat">Sobre su hábitat</label>
+        <label class="radios"><input type="checkbox" name="checks" value="años">Cuantos años viven diferentes especies de tortugas</label>
+        <label class="radios"><input type="checkbox" name="checks" value="ciclo">Ciclo de vida</label>
+        <label class="radios"><input type="checkbox" name="checks" value="alimentacion">Alimentación de las diferentes especies</label>
+        <label class="radios"><input type="checkbox" name="checks" value="chidas">Porqué molan tanto</label>
+      </fieldset>
+      <div class="main-div__form-div">
+        <label for="text-area"> Sugerencias y comentarios</label>
+        <br><textarea class="text-areas" name="comentarios" rows="auto" cols="auto">Escriba aquí...</textarea>
+      </div>
+      <div class="divButton">
+      <button class="button" id="submit" type="submit"> Enviar</button>
+    </div>
+    </form>
+    
+    </div>
+    </html>
